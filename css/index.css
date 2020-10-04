@@ -34,7 +34,51 @@
 }
 .tier-s p {
   text-align: center;
-  padding-top: 40px;
+  padding-top: 60px;
+  font-size: 28px;
+  font-weight: 600;
+}
+.tier-a {
+  background-color: #f9cc60;
+  width: 5rem;
+  border-radius: 10px 0px 0px 10px;
+}
+.tier-a p {
+  text-align: center;
+  padding-top: 60px;
+  font-size: 28px;
+  font-weight: 600;
+}
+.tier-b {
+  background-color: #f5f646;
+  width: 5rem;
+  border-radius: 10px 0px 0px 10px;
+}
+.tier-b p {
+  text-align: center;
+  padding-top: 140px;
+  font-size: 28px;
+  font-weight: 600;
+}
+.tier-c {
+  background-color: #bdf065;
+  width: 5rem;
+  border-radius: 10px 0px 0px 10px;
+}
+.tier-c p {
+  text-align: center;
+  padding-top: 140px;
+  font-size: 28px;
+  font-weight: 600;
+}
+.tier-d {
+  background-color: #6af065;
+  width: 5rem;
+  border-radius: 10px 0px 0px 10px;
+}
+.tier-d p {
+  text-align: center;
+  padding-top: 60px;
   font-size: 28px;
   font-weight: 600;
 }
@@ -45,6 +89,8 @@
   border-radius: 10px;
 }
 
-html {
-  scroll-behavior: smooth;
+.elBg {
+  background-color: #fff;
+  border-radius: 5px;
+  position: relative;
 }
