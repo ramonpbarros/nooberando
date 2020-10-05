@@ -8,7 +8,7 @@
   display: block;
   max-width: 5rem;
   border-radius: 0.5rem;
-  border: solid 0.5px black;
+  border: solid 0.5px #555555;
   box-shadow: 3px 3px #555555;
   overflow: hidden;
 }
@@ -97,6 +97,15 @@
   background-color: #fff;
   border-radius: 5px;
   position: relative;
+}
+
+.zoom {
+  transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  cursor: pointer;
 }
 
 @media (max-width: 992px) {
