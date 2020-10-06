@@ -119,13 +119,32 @@
   cursor: pointer;
 }
 
+.footerImg {
+  width: 100%;
+  position: absolute;;
+  bottom:-80px;
+  right: -80px;
+}
+
 @media (max-width: 992px) {
   .masthead .masthead-avatar {
     width: 30rem;
+  }
+  .footerImg {
+    width: 80%;
+    position: absolute;;
+    bottom:-80px;
+    right: -80px;
   }
 }
 @media (max-width: 720px) {
   .masthead .masthead-avatar {
     width: 20rem;
+  }
+  .footerImg {
+    width: 45%;
+    position: absolute;;
+    bottom:-80px;
+    right: 0px;
   }
 }
