@@ -1,6 +1,9 @@
 .masthead .masthead-avatar {
   width: 60rem;
 }
+.masthead-avatar-1 {
+  width: 70rem;
+}
 
 .portfolio .portfolio-item {
   cursor: pointer;
