@@ -45,6 +45,9 @@
     <link href="../css/styles.css" rel="stylesheet" />
     <link href="../css/index.css" rel="stylesheet" />
     <link href="../css/character.css" rel="stylesheet" />
+    <style>
+      #more {display: none;}
+      </style>
     <script
       data-ad-client="ca-pub-2764098734610196"
       async
@@ -146,17 +149,17 @@
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">Fischl</h5>
+                  <h5 class="card-title">Venti</h5>
                   <p class="card-text">
                     <table class="table table-striped table-dark" style="color: white;">
                       <tbody>
                         <tr>
                           <th scope="col"><span >Aniversário:</span></th>
-                          <th scope="col" style="text-align: right;">14/3</th>
+                          <th scope="col" style="text-align: right;">16/6</th>
                         </tr>
                         <tr>
                           <th scope="col">Afiliaçāo:</th>
-                          <th scope="col" style="text-align: right;">Cavaleiros de Favonius</th>
+                          <th scope="col" style="text-align: right;">Archons</th>
                         </tr>
                         <tr>
                           <th scope="col">Elemento:</th>
@@ -164,7 +167,7 @@
                         </tr>
                         <tr>
                           <th scope="col">Constelaçāo:</th>
-                          <th scope="col" style="text-align: right;">Leo Menor</th>
+                          <th scope="col" style="text-align: right;">Carmen Dei</th>
                         </tr>
                         <tr>
                           <th scope="col">Raridade:</th>
@@ -179,13 +182,14 @@
                         </tr>
                         <tr>
                           <th scope="col">Arma:</th>
-                          <th scope="col" style="text-align: right;">Espada</th>
+                          <th scope="col" style="text-align: right;">Arco</th>
                         </tr>
                       </tbody>
                     </table>
                   </p>
                   <p class="card-text"><small class="text-muted">
-                    Justa e rigorosa Cavaleira de Dandelion, a Grande Mestre Intendente dos Cavaleiros de Favonius em Mondstadt.</small></p>
+                    A verdadeira personalidade de Venti é a de Barbatos, o Deus Anemo e um dos sete Arcontes de Teyvat.
+                  </small></p>
                 </div>
               </div>
             </div>
@@ -213,73 +217,71 @@
               <div class="card text-white bg-dark">
                 <div class="card-body">
                   <h5 class="card-title" style="color: #1abc9c; font-weight: 600">Introduçāo</h5>
-                  <p class="card-text">Como vice-chefe de Ordo Favonius, Jean sempre cumpre seus deveres, garantindo a paz na cidade. 
-                    Apesar de nāo ter nenhum talento especial, passou por árduos treinamentos, impressionando com sua diligência em proteger Mondstadt.</p>
+                  <p class="card-text">
+                    Um bardo que parece ter chegado por algum vento desconhecido - às vezes canta canções 
+                    tão antigas quanto as colinas, e outras vezes canta poemas novos e novos. Gosta de maçãs 
+                    e de lugares animados, mas não é fã de queijo ou qualquer coisa pegajosa. Ao usar seu poder 
+                    Anemo para controlar o vento, muitas vezes aparece como penas, pois ele gosta do que parece leve e arejado.</p>
                 </div>
               </div>
               <div class="card text-white bg-dark">
                 <div class="card-body">
-                  <h5 class="card-title" style="color: #1abc9c; font-weight: 600">Trivia</h5>
+                  <h5 class="card-title" style="color: #1abc9c; font-weight: 600">Personalidade</h5>
                   <p class="card-text">
-                    Ela costumava ter uma tartaruga de estimação quando era criança.
-                  <p class="card-text">
-                    Ela é a irmã mais velha de Barbara.
-                  </p>
+                    Venti tem uma atitude bastante travessa, e gosta de rimar na fala que, no entanto, se for mandado parar, 
+                    ele parará imediatamente. Ele vê um certo valor na música a ponto de nomear sua própria lira, dizendo "todo 
+                    ser merece um nome para ser invocado e tecido em uma canção". Ele também é bastante ousado, mostrado muitas 
+                    vezes tanto no mangá quanto no jogo, não temendo insultar ou ignorar aqueles que são supostamente poderosos.
                 </div>
               </div>
               <div class="card text-white bg-dark">
                 <div class="card-body">
                   <h5 class="card-title" style="color: #1abc9c; font-weight: 600">Aparência</h5>
-                  <p class="card-text">Jean tem uma constituição alta e atlética e pele clara. Ela tem cabelo curto loiro dourado preso em um rabo de cavalo com olhos azul-acinzentados.
-                    Ela usa um macacão branco bordado com símbolos dourados e um padrão de pontos de diamante ao longo das pernas, um longo sobretudo azul e uma capa curta preta e dourada com forro interno azul.
-                    Ela empunha uma espada de prata e azul com uma empunhadura de ouro na forma de uma asa de pássaro aberta, incrustada com uma gema azul-celeste.</p>
+                  <p class="card-text">
+                    Venti tem pele clara, olhos cor de água e uma constituição esguia. Ele tem cabelo azul escuro que beira o preto, 
+                    com tranças gêmeas curtas que desbotam em uma cor aqua que brilha em ciano brilhante ao lançar magia.
+                    
+                    Ele usa uma blusa branca com babados com uma cintura de couro parecida com um espartilho, <span id="dots"></span><span id="more">junto com shorts azul-petróleo 
+                    com bordados dourados e uma capa azul-petróleo combinando presa por um laço azul profundo e dourado.
+                    
+                    Venti também usa meias brancas com 3 diamantes de ouro em cada perna e um chapéu em forma de boina com uma Cecília, 
+                    que é sua flor favorita. Ele carrega uma lira de madeira com cordas azuis imbuídas com o poder de Anemo.</p>
+                  </span>
+                  <button onclick="myFunction()" id="myBtn" class="btn btn-primary">Read more</button> 
                 </div>
               </div>
             </div>
+            <img
+              class="masthead-avatar mt-5"
+              src="../assets/img/genshin/characters/venti/ventiGame.jpg"
+              style="border-radius: 10px"
+              alt=""
+            />
             <div class="container">
               <div class="card bg-dark mb-3 mt-5" style="max-width: 100%;">
                 <div class="row no-gutters">
                   <div class="col-md-12">
                     <div class="card-body">
                       <h5 class="card-title">Conto Um</h5>
-                      <p class="card-text">O Clã Gunnhildr é a família de cavaleiros mais antiga de Mondstadt, que data antes mesmo de o primeiro épico ser escrito.
+                      <p class="card-text">Na época em que o bardo viajante Venti estava em Mondstadt há apenas alguns meses, sua renda era muito menor do que a dos outros bardos mais estabelecidos da cidade. Mas assim que ele tivesse alguns Mora na panela de sua apresentação, você podia ter certeza que ele se apressaria para gastá-los no mesmo lugar todas as vezes - uma das tabernas da cidade.
 
-                        No entanto, essa longa e orgulhosa linhagem também pode ser um fardo. Jean foi criada por sua mãe para ser a sucessora do clã Gunnhildr.
+                        Infelizmente para Venti, sua aparência infantil significava que suas tentativas de adquirir álcool falhavam a cada passo.
                         
-                        Ela foi treinada em todas as coisas que um cavaleiro deve saber e todas as qualidades que eles devem exibir, desde disciplina, etiqueta e conduta, até conhecimento de história e baladas, bem como em manter o máximo em esgrima e preparo físico. Somente defendendo este padrão Jean pode carregar o manto do Clã Gunnhildr, cujo lema é: "Por Mondstadt, como sempre."
+                        A primeira vez que lhe foi recusado o serviço, foi ouvido resmungando: "Tenho certeza de que não havia tais regulamentos absurdos da última vez que estive aqui ..." Assim que percebeu que a mesma regra se aplicava a todas as tabernas da cidade, ele decidiu que teria que mudar sua abordagem ... A estratégia que ele desenvolveu foi beber no trabalho - ou seja, tocar a lira enquanto segurava seu copo de vinho na boca, instando o público a comprar uma bebida para ele no bar, se quisesse seu desempenho em vez de dar-lhe Mora.
                         
-                        Algum tempo atrás, havia uma piada comumente contada nas tavernas de Mondstadt: Um Gunnhildr aprende a dizer "Por Mondstadt, como sempre" antes de aprender a dizer "mamãe".
+                        A novidade tornou-o bastante popular em Mondstadt.
                         
-                        Quando criança, Jean certa vez ergueu a cabeça do livro que estava lendo, "Breeze Amidst the Forest - Ballad Selection", e viu as outras crianças de sua idade brincando alegremente com cataventos do lado de fora da janela. A jovem Jean soube naquele momento o que o lema de sua família significava para ela.
+                        Havia apenas um obstáculo - ele não conseguia evitar espirrar se um gato se aproximasse ... E se ele estivesse segurando uma taça de vinho na boca quando acontecesse ... desnecessário dizer, seria um desastre.
                         
-                        Agora, quando ela levanta a cabeça de suas pilhas de papelada e vê a próxima geração de crianças fazendo a mesma coisa, o Grão-Mestre em exercício Jean não se arrepende de seus anos de serviço a esse lema.
-                        "Você tem que dar tudo de si para fazer a coisa certa. Sempre."</p>
+                        Venti, portanto, tem uma regra de ouro ao selecionar um local para atuar, que é que não deve haver gatos nas proximidades.
+                        
+                        É mais fácil falar do que fazer - os gatos vadios de Mondstadt parecem se sentir atraídos por ele.
+                        </p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="container">
-              <div class="card bg-dark mb-3 mt-5" style="max-width: 100%;">
-                <div class="row no-gutters">
-                  <div class="col-md-12">
-                    <div class="card-body">
-                      <h5 class="card-title">Conto Dois</h5>
-                      <p class="card-text">"Mestre Jean é tão confiável." "Se você tiver problemas, procure Jean. Ela saberá o que fazer."
-
-                        Os habitantes de Mondstadt, civis e cavaleiros, todos confiam em Jean. Se alguém precisa de ajuda pelos motivos certos, Jean não hesita em prestar assistência. Seja uma briga no mercado, uma questão de relacionamento ... Não importa o quão não relacionado possa ser com o trabalho de um cavaleiro ... Jean alegremente dá uma ajuda sempre que pode.
-                        
-                        "A chance de ajudar alguém em necessidade é razão suficiente para um cavaleiro." Para ela, seu dever de cavaleiro tem prioridade sobre seu papel como Grande Mestre Interino. Ela acredita que ajudar os outros é a melhor maneira de ajudar. Ela considera seus companheiros cavaleiros o mesmo padrão.
-                        
-                        Lisa, a bibliotecária, uma vez sugeriu que Jean fizesse uma pausa e "apreciasse um chá da tarde, como convém a uma dama". Porém, para Jean, fazer o que é digno de um cavaleiro tem prioridade sobre fazer o que é digno de uma dama.
-                        
-                        "Jean é tão confiável." Essa é a reputação que Jean tem em Mondstadt. Sua única reclamação é que não há horas suficientes no dia. Ela nunca poderia ajudar todos os necessitados, mesmo renunciando ao sono. A dedicação e o comprometimento necessários para se tornar alguém tão confiável são inimagináveis.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-              
             </div>
           </div>
         </div>
@@ -294,66 +296,71 @@
           <br><br>
           <div class="card-deck mt-4">
             <div class="card text-white bg-dark">
-              <img src="../assets/img/genshin/characters/jean/avoniusBladework.png" class="" style="width: 30%; margin: auto;"  alt="...">
+              <img src="../assets/img/genshin/characters/venti/divineMarksmanship.png" class="" style="width: 30%; margin: auto;"  alt="...">
               <div class="card-body">
-                <h5 class="card-title" style="color: #1abc9c; font-weight: 600">Têcnica de Favonius</h5>
+                <h5 class="card-title" style="color: #1abc9c; font-weight: 600">Tiro Divino</h5>
                 <p class="card-text" style="color: #1abc9c; font-weight: 600">
                   Ataque Normal:
                 </p>
                 <p class="card-text">
-                  Realiza até 5 golpes rápidos.
+                  Executa até 6 tiros consecutivos com um arco.
                 </p>
                 <p class="card-text" style="color: #1abc9c; font-weight: 600">
                   Ataque Carregado:
                 </p>
                 <p class="card-text">
-                  Consome certa quantidade de Stamina para lançar um inimigo ao ar usando o poder do vento. 
-                  Inimigos lançados cairão lentamente ao chāo.
+                  Execute um tiro certeiro mais preciso com Dano aumentado.
+                  Enquanto mira, ventos favoráveis ​​se acumulam na ponta da flecha. 
+                  Uma flecha totalmente carregada irá lidar com <span style="color: #28a745;">Dano Anemo</span>.
                 </p>
                 <p class="card-text" style="color: #1abc9c; font-weight: 600">
-                  Ataque Profundo:
+                  Ataque Imersivo:
                 </p>
                 <p class="card-text">
-                  Mergulha do ar para atingir o chāo abaixo, causando Dano aos inimigos ao longo do caminho e causando AdE Dano no impacto.
+                  Dispara uma chuva de flechas no ar antes de cair e atingir o solo, distribuindo Dano de AdE no impacto.
                 </p>
               </div>
               <table class="table table-striped table-dark" style="color: white;">
                 <tbody>
                   <tr>
                     <th scope="col" style="text-align: left;">Dano de 1º Golpe</th>
-                    <th scope="col" style="text-align: right;">48.3%</th>
+                    <th scope="col" style="text-align: right;">20.4% + 20.4%</th>
                   </tr>
                   <tr>
                     <th scope="col" style="text-align: left;">Dano de 2º Golpe</th>
-                    <th scope="col" style="text-align: right;">45.6%</th>
+                    <th scope="col" style="text-align: right;">44.4%</th>
                   </tr>
                   <tr>
                     <th scope="col" style="text-align: left;">Dano de 3º Golpe</th>
-                    <th scope="col" style="text-align: right;">65.3%</th>
+                    <th scope="col" style="text-align: right;">52.4%</th>
                   </tr>
                   <tr>
                     <th scope="col" style="text-align: left;">Dano de 4º Golpe</th>
-                    <th scope="col" style="text-align: right;">65.9%</th>
+                    <th scope="col" style="text-align: right;">26.1% + 26.1%</th>
                   </tr>
                   <tr>
                     <th scope="col" style="text-align: left;">Dano de 5º Golpe</th>
-                    <th scope="col" style="text-align: right;">79.2%</th>
+                    <th scope="col" style="text-align: right;">50.7%</th>
                   </tr>
                   <tr>
-                    <th scope="col" style="text-align: left;">Dano de Ataque Carregado</th>
-                    <th scope="col" style="text-align: right;">162%</th>
+                    <th scope="col" style="text-align: left;">Dano de 6º Golpe</th>
+                    <th scope="col" style="text-align: right;">71%</th>
                   </tr>
                   <tr>
-                    <th scope="col" style="text-align: left;">Consumo de Stamina de Ataque Carregado</th>
-                    <th scope="col" style="text-align: right;">20</th>
+                    <th scope="col" style="text-align: left;">Disparo com Mira</th>
+                    <th scope="col" style="text-align: right;">43.9%</th>
+                  </tr>
+                  <tr>
+                    <th scope="col" style="text-align: left;">Disparo com Mira com Energização Completa</th>
+                    <th scope="col" style="text-align: right;">124%</th>
                   </tr>
                   <tr>
                     <th scope="col" style="text-align: left;">Dano Durante a Queda</th>
-                    <th scope="col" style="text-align: right;">63.9%</th>
+                    <th scope="col" style="text-align: right;">56.8%</th>
                   </tr>
                   <tr>
                     <th scope="col" style="text-align: left;">Dano de Queda de <br> Alta/Baixa Altitude</th>
-                    <th scope="col" style="text-align: right;">128% / 160%</th>
+                    <th scope="col" style="text-align: right;">114% / 142%</th>
                   </tr>
                 </tbody>
               </table>
@@ -362,37 +369,36 @@
               </div>
             </div>
             <div class="card text-white bg-dark">
-              <img src="../assets/img/genshin/characters/jean/galeBlade.png" class="" style="width: 30%; margin: auto;" alt="...">
+              <img src="../assets/img/genshin/characters/venti/skywardSonnet.png" class="" style="width: 30%; margin: auto;" alt="...">
               <div class="card-body">
-                <h5 class="card-title" style="color: #1abc9c; font-weight: 600">Espada do Temporal</h5>
-                <p class="card-text">Canalizando o poder do vento sem forma em volta da sua espada, Jean libera uma miniatura de uma tempestade, 
-                  lançando inimigos na direçāo em que ela mira, causando um <span style="color: #28a745;">Dano Anemo</span> massivo.
+                <h5 class="card-title" style="color: #1abc9c; font-weight: 600">Soneto para o Céu</h5>
+                <p class="card-text">Ó vento sobre o qual todos os hinos e canções voam, leve esses caminhantes da Terra para o céu!
                 </p>
                 <p class="card-text" style="color: #1abc9c; font-weight: 600;">Manter Pressionado
-                  <p class="card-text">Ao custo de um consumo constante de Stamina, Jean pode comandar um turbilhāo que suga inimigos próximos à sua frente. A direçāo pode ser controlada. 
-                    O personagem fica imóvel durante a duraçāo da habilidade.
+                  <p class="card-text">Invoca um Domínio do Vento ainda maior com Venti como epicentro, lidando com <span style="color: #28a745;">Dano Anemo AdE</span> e lançando inimigos afetados no ar.
+                    Depois de liberar a versão Hold dessa habilidade, Venti monta o vento no ar.
                   </p>
-                  <p class="card-text text-muted" style="font-style: italic;">Ao custo de um consumo constante de Stamina, Jean pode comandar um turbilhāo que suga inimigos próximos à sua frente. A direçāo pode ser controlada. 
-                    O personagem fica imóvel durante a duraçāo da habilidade.
+                  <p class="card-text">
+                    Os inimigos atingidos pelo <span style="color: #1abc9c;">Soneto para o Céu</span> cairão no chão lentamente.
                   </p>
                 </p>
                   <table class="table table-striped table-dark" style="color: white;">
                     <tbody>
                       <tr>
-                        <th scope="col" style="text-align: left;">Dano de Habilidade</th>
-                        <th scope="col" style="text-align: right;">292%</th>
+                        <th scope="col" style="text-align: left;">Dano Apertado</th>
+                        <th scope="col" style="text-align: right;">276%</th>
                       </tr>
                       <tr>
-                        <th scope="col" style="text-align: left;">Consumo de Stamina</th>
-                        <th scope="col" style="text-align: right;">20 por segundo</th>
-                      </tr>
-                      <tr>
-                        <th scope="col" style="text-align: left;">Duraçāo Máxima</th>
-                        <th scope="col" style="text-align: right;">5s</th>
-                      </tr>
-                      <tr>
-                        <th scope="col" style="text-align: left;">Tempo de Recarga</th>
+                        <th scope="col" style="text-align: left;">Tempo de Recarga (apertado)</th>
                         <th scope="col" style="text-align: right;">6s</th>
+                      </tr>
+                      <tr>
+                        <th scope="col" style="text-align: left;">Dando Pressionado</th>
+                        <th scope="col" style="text-align: right;">380%</th>
+                      </tr>
+                      <tr>
+                        <th scope="col" style="text-align: left;">Tempo de Recarga (pressionado)</th>
+                        <th scope="col" style="text-align: right;">15s</th>
                       </tr>
                     </tbody>
                   </table>
@@ -402,40 +408,31 @@
               </div>
             </div>
             <div class="card text-white bg-dark">
-              <img src="../assets/img/genshin/characters/jean/dandelionBreeze.png" class="" style="width: 30%; margin: auto;" alt="...">
+              <img src="../assets/img/genshin/characters/venti/windsGrandOde.png" class="" style="width: 30%; margin: auto;" alt="...">
               <div class="card-body">
-                <h5 class="card-title" style="color: #1abc9c; font-weight: 600">Brisa de Dandelion</h5>
-                <p class="card-text">Invocando a proteçāo do vento, Jean cria um Campo Dandelion rodopiante, lançando inimigos ao redor e causando <span style="color: #28a745;">Dano Anemo</span> 
-                  Ao mesmo tempo, ela regenera instantaneamente uma grande quantidade de Vida para todos os membros da equipe. A vida restaurada dimensiona o ATQ de Jean.</p>
-                  <p class="card-text" style="color: #1abc9c; font-weight: 600;">Campo Dandelions</p>
-                  <p class="card-text">Regenera continuamente a Vida de um aliado e os ativam atributo Anemo. Causa <span style="color: #28a745;">Dano Anemo</span> aos inimigos que entram ou saem do campo.</p>
-                  <p class="card-text text-muted" style="font-style: italic;">A magnanimidade de Jean é tāo vasta quanto os Dandelions, e é a raiz de seu desejo de proteger os outros.
-                  </p>
+                <h5 class="card-title" style="color: #1abc9c; font-weight: 600">Grande Ode do Vento</h5>
+                <p class="card-text">Dispara uma flecha feita de incontáveis ​​ventos unidos, criando um enorme Stormeye que 
+                  suga objetos e inimigos ao longo de seu caminho, lidando continuamente com <span style="color: #28a745;">Dano Anemo</span>.</p>
+                  <p class="card-text" style="color: #1abc9c; font-weight: 600;">Absorção Elemental</p>
+                  <p class="card-text">Se o Olho da Tempestade entrar em contato com os elementos Hydro / Pyro / Cryo / Electro, ele gerará Dano elementar adicional desse tipo.
+                    A absorção elementar pode ocorrer apenas uma vez por uso.</p>
                   <table class="table table-striped table-dark" style="color: white;">
                     <tbody>
                       <tr>
-                        <th scope="col" style="text-align: left;">Dano da Explosāo</th>
-                        <th scope="col" style="text-align: right;">425%</th>
+                        <th scope="col" style="text-align: left;">Dano ao Longo do Tempo</th>
+                        <th scope="col" style="text-align: right;">47%</th>
                       </tr>
                       <tr>
-                        <th scope="col" style="text-align: left;">Dano de Entrada e Saída da Área</th>
-                        <th scope="col" style="text-align: right;">78.4%</th>
+                        <th scope="col" style="text-align: left;">Dano Elemental Adicional</th>
+                        <th scope="col" style="text-align: right;">23.5%</th>
                       </tr>
                       <tr>
-                        <th scope="col" style="text-align: left;">Cura de Ativaçāo de Área</th>
-                        <th scope="col" style="text-align: right;">251% do atq + 154/s</th>
-                      </tr>
-                      <tr>
-                        <th scope="col" style="text-align: left;">Regeneraçāo Contínua</th>
-                        <th scope="col" style="text-align: right;">25.12% atq + 154/s</th>
-                      </tr>
-                      <tr>
-                        <th scope="col" style="text-align: left;">Tempo de Recarga</th>
-                        <th scope="col" style="text-align: right;">20s</th>
+                        <th scope="col" style="text-align: left;">Duração</th>
+                        <th scope="col" style="text-align: right;">8s</th>
                       </tr>
                       <tr>
                         <th scope="col" style="text-align: left;">Energia Elemental</th>
-                        <th scope="col" style="text-align: right;">80</th>
+                        <th scope="col" style="text-align: right;">60</th>
                       </tr>
                     </tbody>
                   </table>
@@ -453,30 +450,31 @@
             <br><br>
             <div class="card-deck mt-4">
               <div class="card text-white bg-dark">
-                <img src="../assets/img/genshin/characters/jean/windCompanion.png" class="" style="width: 30%; margin: auto;"  alt="...">
+                <img src="../assets/img/genshin/characters/venti/embraceOfWinds.png" class="" style="width: 30%; margin: auto;"  alt="...">
                 <div class="card-body">
-                  <h5 class="card-title" style="color: #1abc9c; font-weight: 600">Companhia do Vento</h5>
-                  <p class="card-text">Ao acertar Ataques Normais, possui 50% de chance de regenerar a Vida equivalente a 15% do ATQ de Jean para todos os membros da Equipe.</p>
+                  <h5 class="card-title" style="color: #1abc9c;">Abraço dos Ventos</h5>
+                  <p class="card-text">Segurar <span style="color: #1abc9c;">Soneto para o Céu</span> cria uma corrente ascendente que dura 20s.</p>
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">Desbloqueado na Ascensão 1</small>
                 </div>
               </div>
               <div class="card text-white bg-dark">
-                <img src="../assets/img/genshin/characters/jean/lettheWindLead.png" class="" style="width: 30%; margin: auto;" alt="...">
+                <img src="../assets/img/genshin/characters/venti/stormeye.png" class="" style="width: 30%; margin: auto;" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title" style="color: #1abc9c; font-weight: 600">Deixe o Vento Levar</h5>
-                  <p class="card-text">Após usar a <span style="color: #1abc9c;">Brisa de Dandelion</span> regenera 20% de Energia Elemental</p>
+                  <h5 class="card-title" style="color: #1abc9c;">Olho da Tempestade</h5>
+                  <p class="card-text">Regenera 15 de energia para Venti após os efeitos da <span style="color: #1abc9c;">Grande Ode do Vento</span>.
+                    Se ocorrer uma absorção elementar, isso também restaura 15 de energia para todos os personagens daquele elemento correspondente.</p>
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">Desbloqueado na Ascensão 4</small>
                 </div>
               </div>
               <div class="card text-white bg-dark">
-                <img src="../assets/img/genshin/characters/jean/lettheWindLead.png" class="" style="width: 30%; margin: auto; visibility: hidden;" alt="...">
+                <img src="../assets/img/genshin/characters/venti/windrider.png" class="" style="width: 30%; margin: auto;" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title" style="color: #1abc9c; font-weight: 600">Brisa de Planagem</h5>
-                  <p class="card-text">Quando uma Culinária Perfeita é feita em uma comida com efeito de recuperaçāo, tem uma chance de 12% de receber o dobro de produção.</p>
+                  <h5 class="card-title" style="color: #1abc9c; font-weight: 600">Cavaleiro do Vento</h5>
+                  <p class="card-text">Diminui o consumo de energia de todos os membros do grupo em 20%.</p>
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">Desbloqueado Automaticamente</small>
@@ -497,30 +495,32 @@
           <br><br>
           <div class="card-deck mt-5">
             <div class="card text-white bg-dark">
-              <img src="../assets/img/genshin/characters/jean/spiralingTempest.png" class="" style="width: 30%; margin: auto;"  alt="...">
+              <img src="../assets/img/genshin/characters/venti/splittingGale.png" class="" style="width: 30%; margin: auto;"  alt="...">
               <div class="card-body">
-                <h5 class="card-title" style="color: #1abc9c; font-weight: 600">Tempestade Espiral</h5>
-                <p class="card-text">Aumenta a velocidade da <span style="color: #1abc9c;">Espada do Temporal</span>após manter pressionado por mais de 1s e aumenta o dano causando 40%.</p>
+                <h5 class="card-title" style="color: #1abc9c;">Vendaval da Divisão</h5>
+                <p class="card-text">Dispara 2 flechas adicionais por tiro certeiro, cada uma dando 33% do Dano da flecha original.</p>
               </div>
               <div class="card-footer">
                 <small class="text-muted">Constelaçāo Nível 1</small>
               </div>
             </div>
             <div class="card text-white bg-dark">
-              <img src="../assets/img/genshin/characters/jean/peoplesAegis.png" class="" style="width: 30%; margin: auto;" alt="...">
+              <img src="../assets/img/genshin/characters/venti/breezeOfReminiscence.png" class="" style="width: 30%; margin: auto;" alt="...">
               <div class="card-body">
-                <h5 class="card-title" style="color: #1abc9c; font-weight: 600">Égide do Povo</h5>
-                <p class="card-text">Após usar a <span style="color: #1abc9c;">Brisa de Dandelion</span> regenera 20% de Energia Elemental</p>
+                <h5 class="card-title" style="color: #1abc9c;">Brisa da Reminiscência</h5>
+                <p class="card-text"><span style="color: #1abc9c;">Skyward Sonnet</span> diminui a RES <span style="color: #28a745;">Anemo</span> do inimigo em 12% por 10s.
+                  Os inimigos lançados pelo <span style="color: #1abc9c;">Skyward Sonnet</span> sofrem uma redução 
+                  adicional de 12% no RES do <span style="color: #28a745;">Anemo</span> e no RES física durante o vôo.</p>
               </div>
               <div class="card-footer">
                 <small class="text-muted">Constelaçāo Nível 2</small>
               </div>
             </div>
             <div class="card text-white bg-dark">
-              <img src="../assets/img/genshin/characters/jean/whentheWestWindArises.png" class="" style="width: 30%; margin: auto;" alt="...">
+              <img src="../assets/img/genshin/characters/venti/odeToThousandWinds.png" class="" style="width: 30%; margin: auto;" alt="...">
               <div class="card-body">
-                <h5 class="card-title" style="color: #1abc9c; font-weight: 600">Quando o Vento do Oeste Sopra</h5>
-                <p class="card-text">Aumenta o nível da <span style="color: #1abc9c;">Brisa de Dandeliona</span> em 3.
+                <h5 class="card-title" style="color: #1abc9c;">Ode aos Mil Ventos</h5>
+                <p class="card-text">Aumenta o Nível da <span style="color: #1abc9c;">Wind's Grand Ode</span> em 3.
                   O nível máximo de atualização é 15.</p>
               </div>
               <div class="card-footer">
@@ -530,21 +530,20 @@
           </div>
           <div class="card-deck mt-5">
             <div class="card text-white bg-dark">
-              <img src="../assets/img/genshin/characters/jean/landsofDandelion.png" class="" style="width: 30%; margin: auto;"  alt="...">
+              <img src="../assets/img/genshin/characters/venti/hurricaneOfFreedom.png" class="" style="width: 30%; margin: auto;"  alt="...">
               <div class="card-body">
-                <h5 class="card-title" style="color: #1abc9c; font-weight: 600">Terra dos Dandelions</h5>
-                <p class="card-text">Dentro do Campo criado pela <span style="color: #1abc9c;">Brisa de Dandeliona</span>, todos os inimigos têm sua 
-                  <span style="color: #28a745;">RES Anemo</span> diminuída em 40%</p>
+                <h5 class="card-title" style="color: #1abc9c;">Furacão da Liberdade</h5>
+                <p class="card-text">Quando Venti pega um Orbe ou Partícula Elemental, ele recebe um Bônus <span style="color: #28a745;">Dano Anemo</span> de 25% por 10s.</p>
               </div>
               <div class="card-footer">
                 <small class="text-muted">Constelaçāo Nível 4</small>
               </div>
             </div>
             <div class="card text-white bg-dark">
-              <img src="../assets/img/genshin/characters/jean/outburstingGust.png" class="" style="width: 30%; margin: auto;" alt="...">
+              <img src="../assets/img/genshin/characters/venti/conciertoDalCielo.png" class="" style="width: 30%; margin: auto;" alt="...">
               <div class="card-body">
-                <h5 class="card-title" style="color: #1abc9c; font-weight: 600">Rajada Explosiva</h5>
-                <p class="card-text">Aumente o Nível da <span style="color: #1abc9c;">Espada do Temporal</span> em 3.
+                <h5 class="card-title" style="color: #1abc9c;">Concierto del Cielo</h5>
+                <p class="card-text">Aumente o nível do <span style="color: #1abc9c;">Skyward Sonnet</span> em 3.
                   O nível máximo de atualização é 15.</p>
               </div>
               <div class="card-footer">
@@ -552,11 +551,11 @@
               </div>
             </div>
             <div class="card text-white bg-dark">
-              <img src="../assets/img/genshin/characters/jean/lionsFangFairProtectorMondstadt.png" class="" style="width: 30%; margin: auto;" alt="...">
+              <img src="../assets/img/genshin/characters/venti/stormOfDefiance.png" class="" style="width: 30%; margin: auto;" alt="...">
               <div class="card-body">
-                <h5 class="card-title" style="color: #1abc9c; font-weight: 600">Presa do Leāo, Protetor de Mondstadt</h5>
-                <p class="card-text">Dano recebido é reduzido em 35% dentro da Área criada por <span style="color: #1abc9c;">Brisa de Dandelion</span>. 
-                  Após sair do Campo de Dandelions, este efeito dura por 3 ataques ou 10 segundos.</p>
+                <h5 class="card-title" style="color: #1abc9c; font-weight: 600">Tempestade de Desafio</h5>
+                <p class="card-text">Os alvos que pegam DMG do <span style="color: #1abc9c;">Wind's Grand Ode</span> têm seu RES do <span style="color: #28a745;">Anemo</span> reduzido em 20%.
+                  Se ocorrer uma absorção elementar, então seu RES em direção ao elemento correspondente também é reduzido em 20%.</p>
               </div>
               <div class="card-footer">
                 <small class="text-muted">Constelaçāo Nível 6</small>
@@ -579,18 +578,17 @@
               <img src="../assets/img/genshin/elements/anemo.png" class="mt-4" style="width: 20%; margin: auto;"  alt="...">
               <div class="card-body">
                 <h5 class="card-title" style="color: #1abc9c; font-weight: 600">Build de Suporte</h5>
-                <p class="card-text">Esta construção capacita a Explosāo Elemental da Jean para maximizar sua cura, enquanto simultaneamente reduz o RES Elemental dos inimigos para o resto do seu grupo.</p>
+                <p class="card-text">Esta construção aumenta os danos do Anemo e do Redemoinho de Venti, ao mesmo tempo que reduz a RES Elemental dos inimigos para o resto do seu grupo.</p>
               </div>
               <div class="card-footer">
                 <small class="text-muted"><span style="color: #28a745;">Anemo</span></small>
               </div>
             </div>
             <div class="card text-white bg-dark">
-              <img src="../assets/img/genshin/characters/jean/theFlute.png" class="" style="width: 30%; margin: auto;" alt="...">
+              <img src="../assets/img/genshin/characters/fischl/theStringless.png" class="" style="width: 30%; margin: auto;" alt="...">
               <div class="card-body">
-                <h5 class="card-title" style="color: #1abc9c; font-weight: 600">The Flute</h5>
-                <p class="card-text">Ataques normais ou carregados concedem harmônicos aos acertos. Ganhar 5 Harmônicas ativa o poder da música e distribui <span style="color: #17a2b8; font-weight: 600;">100/125/150/175/200%</span>  Dano de ATQ 
-                  para os inimigos ao redor. Os harmônicos duram até 30s e um máximo de 1 pode ser obtido a cada 0,5s.</p>
+                <h5 class="card-title" style="color: #1abc9c; font-weight: 600">The Stringless</h5>
+                <p class="card-text">Aumenta a habilidade elemental e o Dano de explosão elemental em <span style="color: #17a2b8; font-weight: 600;">24/30/36/42/48%</span>.</p>
               </div>
               <div class="card-footer">
                 <small class="text-muted">
@@ -602,11 +600,70 @@
               </div>
             </div>
             <div class="card text-white bg-dark">
-              <img src="../assets/img/genshin/characters/jean/itemNoblesseOblige.png" class="mt-4" style="width: 20%; margin: auto;" alt="...">
+              <img src="../assets/img/genshin/characters/venti/Item_Viridescent_Venerer_5-star.png" class="mt-4" style="width: 20%; margin: auto;" alt="...">
               <div class="card-body">
-                <h5 class="card-title" style="color: #1abc9c; font-weight: 600">Noblesse Oblige</h5>
-                <p class="card-text">(2) Dano da Explosão elementar + 20% <br><br>
-                  (4) Usando a Explosão elementar, aumente o ATQ de todos os membros do grupo em 20% por 12s. Este efeito não pode ser acumulado.</p>
+                <h5 class="card-title" style="color: #1abc9c; font-weight: 600">Viridescent Venerer</h5>
+                <p class="card-text">(2) Dano Bonús de Anemo +15% <br><br>
+                  (4) Aumenta o Dano do Redemoinho em 60%. Diminui a RES Elemental do oponente para o elemento infundido no Redemoinho em 40% por 10s.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Conjuntos de Artefatos</small>
+              </div>
+            </div>
+          </div>
+          <div class="divider-custom divider-light mt-5">
+            <div class="divider-custom-line"></div>
+            <h5>OU</h5>
+            <div class="divider-custom-line"></div>
+          </div>
+          <div class="card-deck  mt-5">
+            <div class="card text-white bg-dark">
+              <img src="../assets/img/genshin/elements/anemo.png" class="mt-4" style="width: 20%; margin: auto;"  alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="color: #1abc9c;">Build de Disparo com Mira</h5>
+                <p class="card-text">A ideia por trás dessa construção é disparar um tiro poderoso e totalmente carregado 
+                  com Venti a cada 10 segundos, aproveitando as 2 flechas extras de sua primeira constelação, Splitting Gale.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted"><span style="color: #28a745;">Anemo</span></small>
+              </div>
+            </div>
+            <div class="card text-white bg-dark">
+              <img src="../assets/img/genshin/characters/venti/royalBow.png" class="" style="width: 30%; margin: auto;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="color: #1abc9c;">Royal Bow</h5>
+                <p class="card-text">Ao causar dano a um oponente, aumenta a taxa de CRIT em 8%. Máximo de 5 pilhas. Um acerto de CRIT remove todas as pilhas.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">
+                  <img src="../assets/img/genshin/characters/diluc/skillStar.png" alt="">
+                  <img src="../assets/img/genshin/characters/diluc/skillStar.png" alt="">
+                  <img src="../assets/img/genshin/characters/diluc/skillStar.png" alt="">
+                  <img src="../assets/img/genshin/characters/diluc/skillStar.png" alt="">
+                </small>
+              </div>
+            </div>
+            <div class="card text-white bg-dark">
+              <img src="../assets/img/genshin/characters/venti/sharpshootersOath.png" class="" style="width: 30%; margin: auto;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="color: #1abc9c;">Sharpshooter's Oath</h5>
+                <p class="card-text">Aumenta o DMG contra os pontos fracos em <span style="color: #17a2b8; font-weight: 600;">24/30/36/42/48%</span>.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">
+                  <img src="../assets/img/genshin/characters/diluc/skillStar.png" alt="">
+                  <img src="../assets/img/genshin/characters/diluc/skillStar.png" alt="">
+                  <img src="../assets/img/genshin/characters/diluc/skillStar.png" alt="">
+                  <img src="../assets/img/genshin/characters/diluc/skillStar.png" alt="">
+                </small>
+              </div>
+            </div>
+            <div class="card text-white bg-dark">
+              <img src="../assets/img/genshin/characters/venti/Item_Wanderer_Troupe_5-star.png" class="mt-4" style="width: 20%; margin: auto;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="color: #1abc9c;">Wanderer's Troupe</h5>
+                <p class="card-text">(2) Maestria Elemental +80 <br><br>
+                  (4) Aumenta o Dano de Ataque Carregado em 35% se o personagem usar um Catalyst ou Bow.</p>
               </div>
               <div class="card-footer">
                 <small class="text-muted">Conjuntos de Artefatos</small>
@@ -641,56 +698,56 @@
                 <tr>
                   <th class="align-middle" scope="row">1st</th>
                   <td class="align-middle">20</td>
-                  <td class="align-middle">20,000</td>
-                  <td><img src="../assets/img/genshin/characters/jean/Item_Vayuda_Turquoise_Sliver.png" alt="Vayuda_Turquoise_Sliver"><br><br>Prata Turquesa Vayuda x1</td>
+                  <td class="align-middle">20.000</td>
+                  <td><img src="../assets/img/genshin/characters/venti/Item_Vayuda_Turquoise_Sliver.png" alt="Vayuda_Turquoise_Sliver"><br><br>Prata Turquesa Vayuda x1</td>
                   <td class="align-middle">Nenhum</td>
-                  <td><img src="../assets/img/genshin/characters/jean/Item_Dandelion_Seed.png" alt="CorLapis"><br><br>Sementes de Dandelion x3</td>
-                  <td><img src="../assets/img/genshin/itemDamagedMask.png" alt="DamagedMask"><br><br>Máscara Danificada x3</td>
+                  <td><img src="../assets/img/genshin/characters/venti/Item_Cecilia.png" alt="CorLapis"><br><br>Cecília x3</td>
+                  <td><img src="../assets/img/genshin/characters/venti/Item_Slime_Condensate.png" alt="DamagedMask"><br><br>COndensaçāo de Slime x3</td>
                 </tr>
                 <tr>
                   <th class="align-middle" scope="row">2nd</th>
                   <td class="align-middle">40</td>
-                  <td class="align-middle">40,000</td>
+                  <td class="align-middle">40.000</td>
                   <td><img src="../assets/img/genshin/characters/jean/Item_Vayuda_Turquoise_Fragment.png" alt="ShivadaJadeFragment"><br><br>Fragmento de Turquesa Vayuda x3</td>
-                  <td><img src="../assets/img/genshin/characters/jean/Item_Hurricane_Seed.png" alt="ShivadaJadeFragment"><br><br>Semente de Furacāo x2</td>
-                  <td><img src="../assets/img/genshin/characters/jean/Item_Dandelion_Seed.png" alt="CorLapis"><br><br>Sementes de Dandelion x10</td>
-                  <td><img src="../assets/img/genshin/itemDamagedMask.png" alt="DamagedMask"><br><br>Máscara Danificada x15</td>
+                  <td><img src="../assets/img/genshin/characters/venti/Item_Hurricane_Seed.png" alt="ShivadaJadeFragment"><br><br>Semente de Furacāo x2</td>
+                  <td><img src="../assets/img/genshin/characters/venti/Item_Cecilia.png" alt="CorLapis"><br><br>Cecília x10</td>
+                  <td><img src="../assets/img/genshin/characters/venti/Item_Slime_Condensate.png" alt="DamagedMask"><br><br>COndensaçāo de Slime x15</td>
                 </tr>
                 <tr>
                   <th class="align-middle" scope="row">3rd</th>
                   <td class="align-middle">50</td>
-                  <td class="align-middle">60,000</td>
+                  <td class="align-middle">60.000</td>
                   <td><img src="../assets/img/genshin/characters/jean/Item_Vayuda_Turquoise_Fragment.png" alt="ShivadaJadeFragment"><br><br>Fragmento de Turquesa Vayuda x6</td>
-                  <td><img src="../assets/img/genshin/characters/jean/Item_Hurricane_Seed.png" alt="ShivadaJadeFragment"><br><br>Semente de Furacāo x4</td>
-                  <td><img src="../assets/img/genshin/characters/jean/Item_Dandelion_Seed.png" alt="CorLapis"><br><br>Sementes de Dandelion x20</td>
-                  <td><img src="../assets/img/genshin/itemStainedMask.png" alt="DamagedMask"><br><br>Máscara Suja x12</td>
+                  <td><img src="../assets/img/genshin/characters/venti/Item_Hurricane_Seed.png" alt="ShivadaJadeFragment"><br><br>Semente de Furacāo x4</td>
+                  <td><img src="../assets/img/genshin/characters/venti/Item_Cecilia.png" alt="CorLapis"><br><br>Cecília x20</td>
+                  <td><img src="../assets/img/genshin/characters/venti/Item_Slime_Secretions.png" alt="DamagedMask"><br><br>Gota de Slime x12</td>
                 </tr>
                 <tr>
                   <th class="align-middle" scope="row">4th</th>
                   <td class="align-middle">60</td>
-                  <td class="align-middle">80,000</td>
+                  <td class="align-middle">80.000</td>
                   <td><img src="../assets/img/genshin/characters/jean/Item_Vayuda_Turquoise_Chunk.png" alt="ShivadaJadeFragment"><br><br>Pedaço de Turquesa Vayuda x3</td>
-                  <td><img src="../assets/img/genshin/characters/jean/Item_Hurricane_Seed.png" alt="ShivadaJadeFragment"><br><br>Semente de Furacāo x8</td>
-                  <td><img src="../assets/img/genshin/characters/jean/Item_Dandelion_Seed.png" alt="CorLapis"><br><br>Sementes de Dandelion x30</td>
-                  <td><img src="../assets/img/genshin/itemStainedMask.png" alt="DamagedMask"><br><br>Máscara Suja x18</td>
+                  <td><img src="../assets/img/genshin/characters/venti/Item_Hurricane_Seed.png" alt="ShivadaJadeFragment"><br><br>Semente de Furacāo x8</td>
+                  <td><img src="../assets/img/genshin/characters/venti/Item_Cecilia.png" alt="CorLapis"><br><br>Cecília x30</td>
+                  <td><img src="../assets/img/genshin/characters/venti/Item_Slime_Secretions.png" alt="DamagedMask"><br><br>Gota de Slime x18</td>
                 </tr>
                 <tr>
                   <th class="align-middle" scope="row">5th</th>
                   <td class="align-middle">70</td>
-                  <td class="align-middle">?</td>
+                  <td class="align-middle">240.000</td>
                   <td><img src="../assets/img/genshin/characters/jean/Item_Vayuda_Turquoise_Chunk.png" alt="ShivadaJadeFragment"><br><br>Pedaço de Turquesa Vayuda x6</td>
-                  <td><img src="../assets/img/genshin/characters/jean/Item_Hurricane_Seed.png" alt="ShivadaJadeFragment"><br><br>Semente de Furacāo x12</td>
-                  <td><img src="../assets/img/genshin/characters/jean/Item_Dandelion_Seed.png" alt="CorLapis"><br><br>Sementes de Dandelion x45</td>
-                  <td><img src="../assets/img/genshin/itemOminousMask.png" alt="DamagedMask"><br><br>Máscara Ominosa x16</td>
+                  <td><img src="../assets/img/genshin/characters/venti/Item_Hurricane_Seed.png" alt="ShivadaJadeFragment"><br><br>Semente de Furacāo x12</td>
+                  <td><img src="../assets/img/genshin/characters/venti/Item_Cecilia.png" alt="CorLapis"><br><br>Cecília x45</td>
+                  <td><img src="../assets/img/genshin/characters/venti/Item_Slime_Concentrate.png" alt="DamagedMask"><br><br>Essência de Slime x16</td>
                 </tr>
                 <tr>
                   <th class="align-middle" scope="row">6th</th>
                   <td class="align-middle">80</td>
                   <td class="align-middle">?</td>
                   <td><img src="../assets/img/genshin/characters/jean/Item_Vayuda_Turquoise_Gemstone.png" alt="ShivadaJadeFragment"><br><br>Gema de de Turquesa Vayuda x6</td>
-                  <td><img src="../assets/img/genshin/characters/jean/Item_Hurricane_Seed.png" alt="ShivadaJadeFragment"><br><br>Semente de Furacāo x20</td>
-                  <td><img src="../assets/img/genshin/characters/jean/Item_Dandelion_Seed.png" alt="CorLapis"><br><br>Sementes de Dandelion x60</td>
-                  <td><img src="../assets/img/genshin/itemOminousMask.png" alt="DamagedMask"><br><br>Máscara Ominosa x24</td>
+                  <td><img src="../assets/img/genshin/characters/venti/Item_Hurricane_Seed.png" alt="ShivadaJadeFragment"><br><br>Semente de Furacāo x20</td>
+                  <td><img src="../assets/img/genshin/characters/venti/Item_Cecilia.png" alt="CorLapis"><br><br>Cecília x60</td>
+                  <td><img src="../assets/img/genshin/characters/venti/Item_Slime_Concentrate.png" alt="DamagedMask"><br><br>Essência de Slime x24</td>
                 </tr>
                 <tr>
                   <th class="align-middle" scope="row">Máximo</th>
@@ -767,5 +824,23 @@
     <script src="../assets/mail/contact_me.js"></script>
     <!-- Core theme JS-->
     <script src="../js/scripts.js"></script>
+    <!-- Read More -->
+    <script>
+      function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+      
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more"; 
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less"; 
+          moreText.style.display = "inline";
+        }
+      }
+      </script>
   </body>
 </html>
