@@ -76,6 +76,47 @@
   margin: auto;
 }
 
+.arrow-down {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.arrow-down:hover {
+  cursor: pointer;
+
+}
+.arrow-down::after {
+  content: "";
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  margin: auto;
+  margin-top: 38em;
+  border-right: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transform: 3s arrow infinite ease;
+  animation: 3s arrow infinite ease;
+}
+
+@-webkit-keyframes arrow {
+  0%, 100% {
+    top: 50px;
+  }
+  50% {
+    top:80px
+  }
+}
+@keyframes arrow {
+  0%, 100% {
+    top: 50px;
+  }
+  50% {
+    top:80px
+  }
+}
+
 @media (max-width: 992px) {
   .charImg {
     margin-top: 10%;
