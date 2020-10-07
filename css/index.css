@@ -126,6 +126,12 @@
   right: -80px;
 }
 
+.charBanner {
+  width: 100%;
+  opacity: 80%; 
+  position: relative;
+}
+
 @media (max-width: 992px) {
   .masthead .masthead-avatar {
     width: 30rem;

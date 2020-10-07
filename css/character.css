@@ -1,0 +1,113 @@
+/* body {
+  background-image: url("../assets/img/genshinOne.jpg");
+  background-repeat: no-repeat;
+  width:100%;
+} */
+
+.testImg {
+  width: 100%;
+  z-index: -10;
+  position: absolute;
+}
+
+.charImg {
+  margin-top: 5%;
+  width: 80%;
+  right: 0px;
+  float: right;
+}
+
+.charName {
+  position: absolute; 
+  font-size: 80px; 
+  margin-top: 2em; 
+  font-weight: 800;
+}
+
+.charGroup {
+  position: absolute; 
+  font-size: 80px; 
+  margin-top: 0; 
+  font-weight: 800;
+}
+
+.bg-custom {
+  background-color: #2c3e50 !important;
+}
+.bg-white {
+  background-color: #ffffff !important;
+}
+
+.divider-primary {
+  margin: 1.25rem 0 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divider-primary .divider-primary-line {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: #2c3e50;
+  border-radius: 1rem;
+  border-color: #2c3e50 !important;
+}
+.divider-primary .divider-primary-line:first-child {
+  margin-right: 1rem;
+}
+.divider-primary .divider-primary-line:last-child {
+  margin-left: 1rem;
+}
+.divider-primary .divider-primary-icon {
+  text-align: right;
+  color: #D4AF37 !important;
+  font-size: 1rem;
+}
+.divider-primary.divider-light .divider-primary-line {
+  background-color: #fff;
+}
+.divider-primary.divider-light .divider-primary-icon {
+  color: #fff !important;
+}
+
+.masthead .masthead-avatar {
+  width: 50rem;
+  margin: auto;
+}
+
+@media (max-width: 992px) {
+  .charImg {
+    margin-top: 10%;
+    width: 50%;
+    right: 0px;
+    float: right;
+  }
+  .charName {
+    position: absolute; 
+    font-size: 60px; 
+    margin-top: 2em; 
+    font-weight: 800;
+  }
+  .masthead .masthead-avatar {
+    width: 40rem;
+    margin: auto;
+  }
+}
+@media (max-width: 720px) {
+  .charImg {
+    margin-top: 5%;
+    width: 90%;
+    right: 0px;
+  }
+  .charName {
+    position: absolute; 
+    font-size: 20px; 
+    margin-top: 2em; 
+    font-weight: 5000;
+  }
+  .masthead .masthead-avatar {
+    width: 20rem;
+    margin: auto;
+  }
+}
