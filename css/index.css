@@ -178,6 +178,17 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #e9ecef;
 }
 
+.farm-item {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  max-width: 4rem;
+  border-radius: 0.5rem;
+  border: solid 0.5px #222222;
+  box-shadow: 3px 3px #222222;
+  overflow: hidden;
+}
+
 @media (max-width: 992px) {
   .masthead .masthead-avatar {
     width: 30rem;
@@ -196,5 +207,17 @@ form .row:first-child .floating-label-form-group {
 
   .card-deck {
     padding-left: 25%;
+  }
+
+  .farm-item {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    max-width: 4rem;
+    border-radius: 0.5rem;
+    border: solid 0.5px #222222;
+    box-shadow: 3px 3px #222222;
+    overflow: hidden;
+    margin-bottom: 1rem;
   }
 }
